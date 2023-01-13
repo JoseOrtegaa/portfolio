@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <div class="container-fluid bg-black">
+    <div class="container-fluid bg-black" style="height: 25vh">
       <div class="row">
         <div class="col-md-12 text-center text-white p-3">
           <h1 class="mb-0" style="font-size: 8vmin">Jose Ortega</h1>
@@ -44,14 +44,11 @@
                 data-bs-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
-                style="color: black"
+                style="color: #1877f2; height: 19vh"
               >
                 <div class="row w-100">
-                  <div class="col-5 p-2 m-2 mx-auto">
-                    <h3><b>MERN</b> Stack</h3>
-                  </div>
-                  <div class="col-5 p-2 m-2 mx-auto">
-                    <h3><b>MEAN</b> Stack</h3>
+                  <div class="col-12 p-2 m-2 mx-auto">
+                    <h3><b>IT Skills</b></h3>
                   </div>
                 </div>
               </button>
@@ -97,109 +94,108 @@
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-              style="
-                background-color: #eaeaea;
-                color: black !important ;
-                border: none;
-                border-radius: 0;
-              "
-            >
-              <div class="row w-100">
-                <div class="col-9 p-2 m-2 mx-auto">
-                  <h3 class="mx-auto text-center">
-                    Algunos de mis proyectos...
-                  </h3>
+
+      <!--OTRO ACORDION PRUEBA-->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed text-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+                style="color: black; background-color: #eaeaea; height: 19vh"
+              >
+                <div class="row w-100">
+                  <div class="col-12 p-2 m-2 mx-auto">
+                    <h3><b>My projects</b></h3>
+                  </div>
                 </div>
-              </div>
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample"
-          >
+              </button>
+            </h2>
             <div
-              class="accordion-body"
-              style="
-                background-color: #eaeaea !important;
-                border: none;
-                border-radius: 0;
-              "
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExampleTwo"
             >
-              <div class="row text-center mt-3">
-                <div class="col-sm-3 col-8 mx-auto mb-4">
-                  <h2>Textgram</h2>
-                  <p>
-                    Web orientado a noticias estilo Foro, desarrollado con
-                    <b>React</b>, <b>Node</b>, <b>MySQL</b>, <b>Bootstrap</b>.
-                  </p>
-                  <a
-                    href="https://github.com/JoseOrtegaa/Noticias-Colaborativas"
-                    >Ver en GitHub</a
-                  >
-                </div>
-                <div class="col-sm-3 col-8 mx-auto mb-4">
-                  <h2>iMage</h2>
-                  <p>
-                    Buscador de imagenes desarrollado consumiendo API de Pexels,
-                    desarrollado con <b>React</b>, <b>Bootstrap</b>.
-                  </p>
-                  <a href="https://github.com/JoseOrtegaa/catalogo-de-fotos"
-                    >Ver en GitHub</a
-                  >
-                </div>
-                <div class="col-sm-3 col-8 mx-auto mb-4">
-                  <h2>Pareja-Emoji</h2>
-                  <p>
-                    Proyecto desarrollado consumiendo la API Tarifa luz
-                    española, desarrollado con <b>Javscript</b>, <b>Css3</b>,
-                    <b>HTML5</b>.
-                  </p>
-                  <a href="https://github.com/JoseOrtegaa/Pareja-Emoji"
-                    >Ver en GitHub</a
-                  >
+              <div
+                class="accordion-body"
+                style="
+                  background-color: #eaeaea !important;
+                  border: none;
+                  border-radius: 0;
+                "
+              >
+                <div class="row text-center mt-3">
+                  <div class="col-sm-3 col-8 mx-auto mb-4">
+                    <h2>Textgram</h2>
+                    <p>
+                      Web orientado a noticias estilo Foro, desarrollado con
+                      <b>React</b>, <b>Node</b>, <b>MySQL</b>, <b>Bootstrap</b>.
+                    </p>
+                    <a
+                      href="https://github.com/JoseOrtegaa/Noticias-Colaborativas"
+                      >Ver en GitHub</a
+                    >
+                  </div>
+                  <div class="col-sm-3 col-8 mx-auto mb-4">
+                    <h2>iMage</h2>
+                    <p>
+                      Buscador de imagenes desarrollado consumiendo API de
+                      Pexels, desarrollado con <b>React</b>, <b>Bootstrap</b>.
+                    </p>
+                    <a href="https://github.com/JoseOrtegaa/catalogo-de-fotos"
+                      >Ver en GitHub</a
+                    >
+                  </div>
+                  <div class="col-sm-3 col-8 mx-auto mb-4">
+                    <h2>Pareja-Emoji</h2>
+                    <p>
+                      Proyecto desarrollado consumiendo la API Tarifa luz
+                      española, desarrollado con <b>Javscript</b>, <b>Css3</b>,
+                      <b>HTML5</b>.
+                    </p>
+                    <a href="https://github.com/JoseOrtegaa/Pareja-Emoji"
+                      >Ver en GitHub</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="container-fluid" style="background-color: #e0e0e0"></div>
         </div>
       </div>
+
+      <!--FIN PRUEBA-->
     </div>
 
     <div class="row h-100 w-100 m-0 p-0" style="background-color: #ffffff">
-      <div class="col-8 w-100 m-3 me-0 ms-0 p-3 text-center text-primary">
-        <h3>Visitame en <b class="">LinkedIn</b></h3>
+      <div
+        class="col-8 w-100 m-3 me-0 ms-0 p-3 text-center"
+        style="color: #1877f2"
+      >
+        <h3><b class="">Visit me on LinkedIn</b></h3>
         <br />
         <a
           class="border border-primary p-2 m-2 text-black text-decoration-none rounded"
           href="https://www.linkedin.com/in/jose-ortega-2292a6223/"
           target="_BLANK"
-          >Ver más</a
+          >Go to</a
         >
       </div>
     </div>
 
     <div
       class="row h-100 w-100 m-0 p-0 text-white"
-      style="background-color: #eaeaea"
+      style="background-color: #eaeaea; height: 10vh"
     >
       <div class="col-12"></div>
       <h3 class="text-black w-100 pt-5 pb-5 text-center">
-        <b>Principios SOLID & Clean Code</b>
+        <b>S.O.L.I.D & Clean Code</b>
       </h3>
     </div>
 
@@ -209,12 +205,12 @@
         display: flex;
         align-items: center;
         bottom: 0;
-        height: 120px;
+        height: 19vh;
       "
       class="text-center bg-black text-white mb-0 w-100 footer"
     >
       <p class="p-3 w-100 text-center">
-        <b>Jose Ortega</b> Todos los derechos reservados. Copyright 2022
+        <b>Jose Ortega</b> All rights reserved. Copyright 2022
       </p>
     </footer>
 
